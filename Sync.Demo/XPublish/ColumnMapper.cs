@@ -81,12 +81,10 @@ namespace DXP.Adam.Recovery.XPublish {
             var command = PrepareCommand(connection, sql, tableName);
             var columnNames = new List<string>();
 
-            using (var reader = command.ExecuteReader()) {
-                if (reader != null) {
-                    while (reader.Read()) {
-                        var columnName = reader.GetString(0);
-                        columnNames.Add(columnName);
-                    }
+            using (var reader = command.ExecuteReader()){
+                while (reader.Read()) {
+                    var columnName = reader.GetString(0);
+                    columnNames.Add(columnName);
                 }
             }
 

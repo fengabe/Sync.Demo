@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXP.Adam.Recovery", "Sync.Demo\DXP.Adam.Recovery.csproj", "{4170AFBA-E872-455E-987B-FE03A9E9BBBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync.ConsoleHost", "Sync.ConsoleHost\Sync.ConsoleHost.csproj", "{037DED78-3215-4D3F-89CD-7D2074A26536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4170AFBA-E872-455E-987B-FE03A9E9BBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4170AFBA-E872-455E-987B-FE03A9E9BBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4170AFBA-E872-455E-987B-FE03A9E9BBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4170AFBA-E872-455E-987B-FE03A9E9BBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037DED78-3215-4D3F-89CD-7D2074A26536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037DED78-3215-4D3F-89CD-7D2074A26536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037DED78-3215-4D3F-89CD-7D2074A26536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037DED78-3215-4D3F-89CD-7D2074A26536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
